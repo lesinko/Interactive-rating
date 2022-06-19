@@ -3,30 +3,39 @@ body{
     margin: 10%;
 }
 
+#icon{
+    padding: 20px;
+}
+
 .container{
-    width: 50%;
+    width: 327px;
+    height: 360px;
     border-radius: 15px;
     margin:auto ;
-    background-color:dark gray;
+    background-color:#1B222C;
 }
 .container h1{
     color: white;
+    font-family:overpass;
+    font: size 24px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: left;
 }
 .container p{
-    color: gray;
-}
-
-#icon{
-    color: orange;
-    padding: 20px;
+    color:lightgrey;
+    line-height: 22px;
+    font-size: 14px;
+    text-align:left;
+    letter-spacing: 0px;
+    font-family:overpass;
 }
 
 .main{
     padding-left: 20px;
 }
 
-.btn2 {
-    border: none;
+.btn{
     color: black;
     padding: 20px;
     text-align: left;
@@ -35,14 +44,32 @@ body{
     border-radius: 50%;
     }
  
-    .btn-submit{
-        padding:0px 100px;
-        background-color:orange;
-        font-size: 1rem;
-        text-align: center;
-        color:white;
-        border-radius: 20px;
-        border: 0;
-        line-height: 2.5;
+ .btn-submit{
+    background-color:orange;
+    text-align: center;
+    color:white;
+    border-radius: 22.5px;
+    line-height:auto;
+    letter-spacing: 1.87px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 279px;
+    height: 45px;
     }
    
+    .image{
+        width: 144px;
+        height: 96px;
+    }
+.content h1{
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    }
+.content p{
+    font-size: 14px;
+    line-height: 22px;
+    font-style: normal;
+    padding: 0% 12.8%;
+}

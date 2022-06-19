@@ -4,41 +4,39 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!--css-->
     <link rel="stylesheet" href="css/style.css">
     <!--FontAwesome CDN Link -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    
-    <link rel="shortcut icon" type="images/png" href="images/favicon.png"/>
-
-    <title>Interactive rating app</title>
+    <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+    <title>Interactive rating application</title>
   </head>
   <body>
-    <div class="container">
-            <div id="icon">
-                <i class="fas fa-star"></i>
-            </div>
-            <div class="main">
-                <h1>How did we do?</h1>
-                <p >Please let us know how we did with your support
-                    request.All feedback is appreciated to help us
-                    improve our offering!
-                </p>
-            </div>
-            <div class="btn2">
-                <button class="btn2">1</button>
-                <button class="btn2">2</button>
-                <button class="btn2">3</button>
-                <button class="btn2">4</button>
-                <button class="btn2">5</button>
-            </div>
+    <form action="thankyou.html" method="post">
+            <div class="container">
+              <div id="icon">
+                  <img src="images/star.svg" alt="">
+              </div>
+              <div class="main">
+                  <h1>How did we do?</h1>
+                  <p >Please let us know how we did with your support
+                      request.All feedback is appreciated to help us
+                      improve our offering!
+                  </p>
+              </div>
+              <span class="btn">
+                  <input type="button" value="1">
+                  <input type="button" value="2">
+                  <input type="button" value="3">
+                  <input type="button" value="4">
+                  <input type="button" value="5">
+              </span>
 
-            <div>
-                <input class="btn-submit" type="button"value="SUBMIT">
+              <a class="btn-submit" href="thankyou.html"><button class="btn-submit">SUBMIT</button> </a>
+
             </div>
-
-    </div>
-
+    </form>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
