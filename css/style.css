@@ -13,8 +13,6 @@ body{
     border-radius: 15px;
     margin:auto ;
     background-color:#1B222C;
-    align-items: center;
-    justify-content: center;
 
 }
 .container h1{
@@ -68,21 +66,23 @@ body{
     .image{
         width: 14px;
         height: 96px;
-        padding:0% 30%;
+        padding:24px 92px;
       
     }
     .response{
         text-align: center;
         color: orange;
         font-family: overpass;
+        font-size: 14px;
+        padding-top: 24px;
     }
-.content h1{
+.main-content h1{
     text-align: center;
     line-height: 30px;
     font-weight: 700;
     font-size: 24px;
     }
-.content p{
+.main-content p{
     font-size: 14px;
     line-height: 22px;
     font-style: normal;
