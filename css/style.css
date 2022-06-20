@@ -13,11 +13,14 @@ body{
     border-radius: 15px;
     margin:auto ;
     background-color:#1B222C;
+    align-items: center;
+    justify-content: center;
+
 }
 .container h1{
     color: white;
     font-family:overpass;
-    font: size 24px;
+    font-size: 24px;
     font-weight: bold;
     line-height: auto;
     text-align: left;
@@ -41,9 +44,13 @@ body{
     text-align: left;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 50%;
+    border-radius: 23px;
+    letter-spacing: 1rem; 
+    cursor: pointer;
     }
- 
+ .submit{
+    padding-left: 10px;
+ }
  .btn-submit{
     background-color:orange;
     text-align: center;
@@ -51,15 +58,23 @@ body{
     border-radius: 22.5px;
     line-height:auto;
     letter-spacing: 1.87px;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 14px;
     width: 279px;
     height: 45px;
+ 
     }
    
     .image{
-        width: 144px;
+        width: 14px;
         height: 96px;
+        padding:0% 30%;
+      
+    }
+    .response{
+        text-align: center;
+        color: orange;
+        font-family: overpass;
     }
 .content h1{
     text-align: center;
