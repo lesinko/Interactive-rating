@@ -38,16 +38,40 @@ body{
 
 .btn{
     color: black;
-    padding: 20px;
-    text-align: left;
-    text-decoration: none;
+    padding: 15px 15px;
+    text-align: center;
     font-size: 16px;
-    border-radius: 23px;
-    letter-spacing: 1rem; 
-    cursor: pointer;
+    border-radius: 50%;
+    letter-spacing: 0.5rem; 
+    border: none;
     }
+.btn:hover {
+        color:orange;
+}
+.btn1{
+    background-color:#979797;
+    text-align: center;
+}
+.btn2{
+    background-color:#979797;
+    text-align: center;
+}
+.btn3{
+    background-color:#979797;
+    text-align: center;
+}
+.btn4{
+    background-color:#979797;
+    text-align: center;
+}
+.btn5{
+    background-color:#979797;
+    text-align: center;
+}
+
  .submit{
-    padding-left: 10px;
+    padding: 4px 20px;
+    position: relative;
  }
  .btn-submit{
     background-color:orange;
