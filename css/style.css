@@ -1,114 +1,152 @@
-body{
-    background-color: black;
-    margin: 10%;
+.main{
+    background-color: #131518;
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
+
+#my-form{
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    background-color:#232A34;
+    margin: 195px 514px 189px 514px;
+}
+
+.image-container{
+    position: absolute;
+    background-color: #262E38;
+    border-radius: 50%;
+    margin:32px 332px 30px 32px;
+    width: 48px;
+    height: 48px;
+    
 }
 
 #icon{
-    padding: 20px;
+    margin-top: 16px;
+    margin-left: 16.75px;
+    display: flex;
+    justify-content: center;
 }
-
-.container{
-    width: 327px;
-    height: 360px;
-    border-radius: 15px;
-    margin:auto ;
-    background-color:#1B222C;
-
-}
-.container h1{
+.content h1{
     color: white;
     font-family:overpass;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: auto;
-    text-align: left;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35.45px;
+    padding-top: 110px;
+    padding-left: 32px;
+    height: 43px;
 }
-.container p{
+
+.content p{
     color:lightgrey;
     line-height: 22px;
     font-size: 14px;
-    text-align:left;
+    padding-top: 7px;
+    padding-left: 32px;
+    padding-right: 40px;
     letter-spacing: 0px;
     font-family:overpass;
 }
 
-.main{
-    padding-left: 20px;
+
+.button{
+    margin: 0px 21px 0px 32px;
+    width: 341px;
+    margin-left: 32px;
 }
 
+.btn:hover {
+    background-color:#FC7614;
+    color: #FFFFFF;
+  }
 .btn{
-    color: black;
-    padding: 15px 15px;
+    border-radius: 50%;
+    background-color:#262E38;
+    padding: 14px;
+    letter-spacing: 0.2px;
+    margin-right: 21px;
+    /* display: inline; */
+    border: none;
+    color:#7C8798;
     text-align: center;
     font-size: 16px;
-    border-radius: 50%;
-    letter-spacing: 0.5rem; 
+    font-family: 'overpass'; 
+
+}
+ .submit{
+    background-color: #FC7614;
+    width: 341PX;
+    height: 45px;
+    padding-left: 32px;
+    margin: 32px 32px 32px 39px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
     border: none;
-    }
-.btn:hover {
-        color:orange;
+    border-radius: 22.5px;
+
+ }
+
+ .submit:hover{
+    background-color: #FFFFFF;
+    color: #FC7614;
+ }
+  
+ #payment-image{
+        width: 162px;
+        /* height: 108px; */
+        margin: 45px 121px 32px 129px;
+      
 }
-.btn1{
-    background-color:#979797;
+ .response-container{
+    padding: 4px 19px 4px 20px;
+    width: 193px;
+    font-family: 'overpass';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    color: #FC7614;
     text-align: center;
-}
-.btn2{
-    background-color:#979797;
-    text-align: center;
-}
-.btn3{
-    background-color:#979797;
-    text-align: center;
-}
-.btn4{
-    background-color:#979797;
-    text-align: center;
-}
-.btn5{
-    background-color:#979797;
-    text-align: center;
+    background-color:#262E38 ;
+    border-radius: 22.5px;
+    margin:32px 109px 32px 110px;
 }
 
- .submit{
-    padding: 4px 20px;
-    position: relative;
- }
- .btn-submit{
-    background-color:orange;
+.container{
+    width: 412px;
+    height: 416px;
+    margin-left: 514px;
+    margin-top: 195px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: #232A34;
+}
+
+.feedback-container h1{
+    color: #FFFFFF;
     text-align: center;
-    color:white;
-    border-radius: 22.5px;
-    line-height:auto;
-    letter-spacing: 1.87px;
-    font-weight:bold;
-    font-size: 14px;
-    width: 279px;
-    height: 45px;
- 
-    }
-   
-    .image{
-        width: 14px;
-        height: 96px;
-        padding:24px 92px;
-      
-    }
-    .response{
-        text-align: center;
-        color: orange;
-        font-family: overpass;
-        font-size: 14px;
-        padding-top: 24px;
-    }
-.main-content h1{
-    text-align: center;
-    line-height: 30px;
+    line-height: 35px;
     font-weight: 700;
-    font-size: 24px;
-    }
-.main-content p{
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 28px;
+    font-family: 'overpass';
     font-style: normal;
-    padding: 0% 12.8%;
+    margin:32px 135px 15px 132px;
+}
+
+.feedback-container p{
+    font-size: 15px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: 'overpass';
+    text-align: center;
+    margin: 15px 32px 45px 40px;
+    font-weight: 400;
+    color: #969FAD;
+
 }
