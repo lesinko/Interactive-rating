@@ -62,6 +62,10 @@
     background-color:#7C8798;;
     color: #FFFFFF;
   }
+  .btn:focus{
+    background-color: #FC7614;
+    color: #FFFFFF;
+  }
 .btn{
     border-radius: 50%;
     background-color:#262E38;
