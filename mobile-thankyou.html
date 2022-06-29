@@ -4,21 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Feedback</title>
+        <title>Feedback page</title>
         <link rel="stylesheet" href="css/mobile-style.css">
         <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
-        <script type="text/javascript" src="./main.js"></script>
     </head>
     <body class="main">
         <div class="container">
             <div id="payment-image">
                 <img src="images/online payment.svg" width="144" height="96" alt="">
             </div>
-            <div class="response-container" id="response"></div>
+            <div class="response-container" id="rate-msg"></div>
             <div class="feedback-container">
                 <h1>Thank you!</h1>
                 <p>We appreciate you taking the time to give a rating.If you ever need more support don't hesitate to get in touch</p>
             </div>
         </div>
     </body>
+    <script>
+        var rate_num = localStorage.getItem('rated-val');
+
+        let response_msg = 'You selected $(rate_num) out of 5';
+
+        document.getElementById('rate-msg').innerText = response_msg;
+    </script>
 </html>

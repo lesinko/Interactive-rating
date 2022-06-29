@@ -6,33 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/desktop-style.css">
     <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
-    <title>Interactive rating application</title>
-    <script type="text/javascript" src="./main.js"></script>
-
+    <title>Interactive rating component</title>
   </head>
   <body class="main">
     <form action="desktop-thankyou.html" method="post" id="my-form">
-
               <div class="image-container">
                 <img id="icon" src="images/star.svg" width="16.75px" height="16px">
               </div>
-
               <div class="content">
                   <h1>How did we do?</h1>
                   <p >Please let us know how we did with your support
                       request.All feedback is appreciated to help us
                       improve our offering!</p>
               </div>
-
               <div class="button">
-                <button class="btn" id="rate-btn" type="button" value="1" onclick="localStorage.setItem('rate-number',value)">1</button>
-                <button class="btn" id="rate-btn" type="button" value="2" onclick="localStorage.setItem('rate-number',value)">2</button>
-                <button class="btn" id="rate-btn" type="button" value="3" onclick="localStorage.setItem('rate-number',value)">3</button>
-                <button class="btn" id="rate-btn" type="button" value="4" onclick="localStorage.setItem('rate-number',value)">4</button>
-                <button class="btn" id="rate-btn" type="button" value="5" onclick="localStorage.setItem('rate-number',value)">5</button>
+                <button class="btn" id="rate-btn" type="button" value="1" onclick="localStorage.setItem('rated-val',value)">1</button>
+                <button class="btn" id="rate-btn" type="button" value="2" onclick="localStorage.setItem('rated-val',value)">2</button>
+                <button class="btn" id="rate-btn" type="button" value="3" onclick="localStorage.setItem('rated-val',value)">3</button>
+                <button class="btn" id="rate-btn" type="button" value="4" onclick="localStorage.setItem('rated-val',value)">4</button>
+                <button class="btn" id="rate-btn" type="button" value="5" onclick="localStorage.setItem('rated-val',value)">5</button>
               </div>
-
-              <input class="submit" type="submit" value="SUBMIT">
+              <button type="button " class="submit">SUBMIT</button>
     </form>
   </body>
 </html>
