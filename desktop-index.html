@@ -4,12 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop-style.css">
     <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
     <title>Interactive rating application</title>
+    <script type="text/javascript" src="./main.js"></script>
+
   </head>
   <body class="main">
-    <form action="thankyou.html" method="post" id="my-form">
+    <form action="desktop-thankyou.html" method="post" id="my-form">
 
               <div class="image-container">
                 <img id="icon" src="images/star.svg" width="16.75px" height="16px">
@@ -23,15 +25,14 @@
               </div>
 
               <div class="button">
-                <button class="btn" type="button" value="1">1</button>
-                <button class="btn" type="button" value="2">2</button>
-                <button class="btn" type="button" value="3">3</button>
-                <button class="btn" type="button" value="4">4</button>
-                <button class="btn" type="button" value="5">5</button>
+                <button class="btn" id="rate-btn" type="button" value="1" onclick="localStorage.setItem('rate-number',value)">1</button>
+                <button class="btn" id="rate-btn" type="button" value="2" onclick="localStorage.setItem('rate-number',value)">2</button>
+                <button class="btn" id="rate-btn" type="button" value="3" onclick="localStorage.setItem('rate-number',value)">3</button>
+                <button class="btn" id="rate-btn" type="button" value="4" onclick="localStorage.setItem('rate-number',value)">4</button>
+                <button class="btn" id="rate-btn" type="button" value="5" onclick="localStorage.setItem('rate-number',value)">5</button>
               </div>
 
               <input class="submit" type="submit" value="SUBMIT">
     </form>
-    <script src="main.js"></script>
   </body>
 </html>
