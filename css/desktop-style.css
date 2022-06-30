@@ -54,12 +54,11 @@
 
 .button{
     margin: 0px 21px 0px 32px;
-    width: 341px;
-    margin-left: 32px;
+    width: 370px;
 }
 
 .btn:hover {
-    background-color:#7C8798;;
+    background-color:#7C8798;
     color: #FFFFFF;
   }
   .btn:focus{
@@ -71,13 +70,15 @@
     background-color:#262E38;
     padding: 14px;
     letter-spacing: 0.2px;
-    margin-right: 21px;
-    /* display: inline; */
+    margin-right: 18px;
+    display: inline;
     border: none;
     color:#7C8798;
     text-align: center;
     font-size: 16px;
     font-family: 'overpass'; 
+    width: 51px;
+    height: 51px;
 
 }
  .submit{
